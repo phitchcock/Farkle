@@ -13,6 +13,7 @@
 		D0EB55B619E5B8380005DFA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EB55B519E5B8380005DFA9 /* Images.xcassets */; };
 		D0EB55B919E5B8380005DFA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0EB55B719E5B8380005DFA9 /* LaunchScreen.xib */; };
 		D0EB55C519E5B8380005DFA9 /* FarkleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB55C419E5B8380005DFA9 /* FarkleTests.swift */; };
+		D0EB55CF19E5B8780005DFA9 /* DieLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB55CE19E5B8780005DFA9 /* DieLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D0EB55BE19E5B8380005DFA9 /* FarkleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarkleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EB55C319E5B8380005DFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0EB55C419E5B8380005DFA9 /* FarkleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarkleTests.swift; sourceTree = "<group>"; };
+		D0EB55CE19E5B8780005DFA9 /* DieLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DieLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				D0EB55AE19E5B8380005DFA9 /* AppDelegate.swift */,
 				D0EB55B019E5B8380005DFA9 /* ViewController.swift */,
 				D0EB55B219E5B8380005DFA9 /* Main.storyboard */,
+				D0EB55CE19E5B8780005DFA9 /* DieLabel.swift */,
 				D0EB55B519E5B8380005DFA9 /* Images.xcassets */,
 				D0EB55B719E5B8380005DFA9 /* LaunchScreen.xib */,
 				D0EB55AC19E5B8380005DFA9 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				D0EB55B119E5B8380005DFA9 /* ViewController.swift in Sources */,
 				D0EB55AF19E5B8380005DFA9 /* AppDelegate.swift in Sources */,
+				D0EB55CF19E5B8780005DFA9 /* DieLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
