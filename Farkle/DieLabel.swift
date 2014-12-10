@@ -14,4 +14,9 @@ class DieLabel: UILabel {
         
     }
 
+    func roll() -> Void {
+        var randomRoll = arc4random_uniform(6) + 1
+        self.text = "\(randomRoll)" as NSString
+    }
+
 }
